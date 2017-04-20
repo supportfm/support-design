@@ -22,8 +22,7 @@ if (request.status === 200) {
 
 var styles = $.extend({
         core: {css: '../dist/css/uikit-core.css'},
-        theme: {css: '../dist/css/uikit.css'}
-    }, themes);
+        theme: {css: '../dist/css/uikit.css'}    }, themes);
 var component = location.pathname.split('/').pop().replace(/.html$/, '');
 var components = [
         'lightbox',
