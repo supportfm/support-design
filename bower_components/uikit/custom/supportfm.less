@@ -7,8 +7,6 @@
 // See "how to create a theme" below for more info
 
 
-@global-font-family: "Fira Sans", sans-serif;
-
 
 //
 // General
@@ -21,16 +19,21 @@
 // Typography
 //
 
+@global-font-family: "Fira Sans", sans-serif;
+
 @global-color: #212121;
 @global-muted-color: rgba(153, 153, 153, 0.54);
-@global-link-color: #6500ff;
+@global-link-color: #651fff;
 @global-link-hover-color: #431b99;
+@global-contrast-color: #ffffff;
+@global-font-size: 14px;
+@global-line-height: 18px;
 
 //
 // Buttons, Navs & Badges
 //
 
-@global-primary-background: #6500ff;
+@global-primary-background: #651fff;
 
 //
 // Spacings
@@ -46,8 +49,8 @@
 //
 
 @global-height: 32px;
-@global-height-mini: 24px;
-@global-height-small: 24px;
+@global-height-mini: 16px;
+@global-height-small: 32px;
 @global-height-large: 48px;
 
 //
@@ -55,39 +58,89 @@
 //
 
 @alert-padding: 16px;
-@alert-background: #e3d3fc;
-@alert-color: #651fff;
+@alert-background: #ece9ff;
+@alert-color: #6037ba;
+@alert-large-padding: 32px;
 
 //
-// Article
+// Badge
 //
 
-@article-title-font-weight: normal;
-@article-title-text-transform: uppercase;
+@badge-font-weight: normal;
 
 //
 // Base
 //
 
-@base-link-hover-text-decoration: underline;
-@base-selection-background: #6500ff;
+@base-selection-background: #651fff;
 
 //
 // Block
 //
 
-@block-primary-background: #6500ff;
+@block-padding-vertical-large: 64px;
+@block-padding-vertical: 32px;
+@block-large-padding-vertical-large: 128px;
+@block-primary-background: #651fff;
 
 //
 // Button
 //
 
-@button-padding-horizontal: 8px;
-@button-large-padding-horizontal: 16px;
-@button-mini-padding-horizontal: 6px;
-@button-small-padding-horizontal: 8px;
-@button-primary-hover-background: #7013ff;
-@button-primary-active-background: #4c00c0;
+@button-height: 32px;
+@button-mini-height: 16px;
+@button-small-height: 24px;
+@button-large-height: 64px;
+@button-padding-horizontal: 16px;
+@button-mini-padding-horizontal: 8px;
+@button-small-padding-horizontal: 16px;
+@button-large-padding-horizontal: 24px;
+@button-primary-hover-background: #7638ff;
+@button-primary-active-background: #5a24d2;
+
+//
+// Comment
+//
+
+@comment-title-margin-top: 8px;
+@comment-meta-margin-top: 4px;
+@comment-list-padding-left: 100px;
+
+//
+// Contrast
+//
+
+@contrast-inverted-color: #212121;
+
+//
+// Description
+//
+
+@description-list-horizontal-margin-left: 184px;
+@description-list-line-margin-top: 8px;
+
+//
+// Dropdown
+//
+
+@dropdown-margin-top: 8px;
+@dropdown-padding: 16px;
+
+//
+// Form
+//
+
+@form-padding: 8px 8px;
+@form-focus-border: #9e99ca;
+@form-focus-background: #f7f5fe;
+@form-advanced-checked-color: #651fff;
+
+//
+// Grid
+//
+
+@grid-gutter-small-horizontal: 8px;
+@grid-gutter-small-vertical: 8px;
 
 //
 // Icon
@@ -96,7 +149,15 @@
 @icon-font-path: "../../fonts";
 
 //
+// Panel
+//
+
+@panel-box-primary-background: #ded1fc;
+@panel-box-primary-color: #765eac;
+@panel-box-primary-title-color: #5b25d2;
+
+//
 // Text
 //
 
-@text-primary-color: #6500ff;
+@text-primary-color: #651fff;

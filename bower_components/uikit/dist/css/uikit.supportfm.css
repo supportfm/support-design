@@ -11,9 +11,9 @@
 html {
   /* 1 */
   font-family: "Fira Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 18px;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -51,7 +51,7 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #6500ff;
+  color: #651fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -281,7 +281,7 @@ h4,
 }
 h5,
 .uk-h5 {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
 }
 h6,
@@ -384,12 +384,12 @@ pre code {
 /* Selection pseudo-element
  ========================================================================== */
 ::-moz-selection {
-  background: #6500ff;
+  background: #651fff;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #6500ff;
+  background: #651fff;
   color: #fff;
   text-shadow: none;
 }
@@ -721,15 +721,15 @@ a.uk-link-reset:focus,
  */
 .uk-list-bullet > li {
   position: relative;
-  padding-left: calc(1.5em + 10px);
+  padding-left: calc(18px + 10px);
 }
 .uk-list-bullet > li::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 1.5em;
-  height: 1.5em;
+  width: 18px;
+  height: 18px;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%226%22%20height%3D%226%22%20viewBox%3D%220%200%206%206%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22%23212121%22%20cx%3D%223%22%20cy%3D%223%22%20r%3D%223%22%3E%3C%2Fcircle%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -813,7 +813,7 @@ a.uk-link-reset:focus,
   text-align: left;
   vertical-align: bottom;
   /* 1 */
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #212121;
 }
@@ -1146,7 +1146,7 @@ a.uk-link-reset:focus,
 .uk-select:focus,
 .uk-textarea:focus {
   outline: 0;
-  background-color: #f8f8f8;
+  background-color: #f7f5fe;
   color: #212121;
 }
 /* Disabled */
@@ -1313,13 +1313,13 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #6500ff;
+  background-color: #651fff;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #5100cc;
+  background-color: #4900eb;
 }
 /*
  * Icons
@@ -1541,9 +1541,9 @@ select.uk-form-width-xsmall {
   /* 6 */
   display: inline-block;
   box-sizing: border-box;
-  padding: 0 8px;
+  padding: 0 16px;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 14px;
   /* 7 */
   line-height: 40px;
   /* 8 */
@@ -1596,19 +1596,19 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #6500ff;
+  background-color: #651fff;
   color: #fff;
 }
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #7013ff;
+  background-color: #7638ff;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #4c00c0;
+  background-color: #5a24d2;
   color: #fff;
 }
 /*
@@ -1663,12 +1663,12 @@ select.uk-form-width-xsmall {
 /* Size modifiers
  ========================================================================== */
 .uk-button-small {
-  padding: 0 8px;
+  padding: 0 16px;
   line-height: 30px;
   font-size: 0.875rem;
 }
 .uk-button-large {
-  padding: 0 16px;
+  padding: 0 24px;
   line-height: 55px;
   font-size: 1.25rem;
 }
@@ -1682,7 +1682,7 @@ select.uk-form-width-xsmall {
 .uk-button-text {
   /* 1 */
   padding: 0;
-  line-height: 1.5;
+  line-height: 18px;
   background: none;
   /* 2 */
   color: rgba(153, 153, 153, 0.54);
@@ -1704,10 +1704,10 @@ select.uk-form-width-xsmall {
 .uk-button-link {
   /* 1 */
   padding: 0;
-  line-height: 1.5;
+  line-height: 18px;
   background: none;
   /* 2 */
-  color: #6500ff;
+  color: #651fff;
 }
 /* Hover + Focus */
 .uk-button-link:hover,
@@ -1835,7 +1835,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #6500ff;
+  background: #651fff;
 }
 /*
  * Secondary
@@ -2287,7 +2287,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background: #6500ff;
+  background: #651fff;
 }
 /*
  * Secondary
@@ -2401,14 +2401,14 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #6500ff;
+  background: #651fff;
   color: #fff;
 }
 .uk-card-primary .uk-card-title {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #5b00e6;
+  background-color: #5305ff;
 }
 /*
  * Secondary
@@ -2594,8 +2594,8 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 16px;
   padding: 16px 30px 16px 16px;
-  background: #e3d3fc;
-  color: #651fff;
+  background: #ece9ff;
+  color: #6037ba;
 }
 /* Add margin if adjacent element */
 * + .uk-alert {
@@ -2630,8 +2630,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #e0ccff;
-  color: #6500ff;
+  background: #e9dfff;
+  color: #651fff;
 }
 /*
  * Success
@@ -2670,7 +2670,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #6500ff;
+  background: #651fff;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -2699,8 +2699,8 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #6500ff;
-  line-height: 1.5;
+  background: #651fff;
+  line-height: 18px;
   font-size: 0.875rem;
   color: #fff;
   vertical-align: middle;
@@ -2855,7 +2855,7 @@ select.uk-form-width-xsmall {
  */
 .uk-comment-list .uk-comment ~ ul {
   margin: 70px 0 0 0;
-  padding-left: 30px;
+  padding-left: 100px;
   list-style: none;
 }
 /* Tablet and bigger */
@@ -3184,8 +3184,8 @@ ul.uk-nav-sub {
  ========================================================================== */
 .uk-nav-parent-icon > .uk-parent > a::after {
   content: "";
-  width: 1.5em;
-  height: 1.5em;
+  width: 18px;
+  height: 18px;
   float: right;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23212121%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%3E%3C%2Fpolyline%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
@@ -3445,7 +3445,7 @@ ul.uk-nav-sub {
   height: 80px;
   padding: 0 15px;
   /* 3 */
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Fira Sans", sans-serif;
   /* 4 */
   text-decoration: none;
@@ -3749,7 +3749,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #6500ff;
+  background-color: #651fff;
   color: #fff;
 }
 /* Disabled
@@ -4194,7 +4194,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   min-width: 200px;
   /* 4 */
-  padding: 15px;
+  padding: 16px;
   background: #f8f8f8;
   color: #212121;
 }
@@ -4863,7 +4863,7 @@ ul.uk-nav-sub {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #6500ff;
+  color: #651fff;
 }
 /*
  * Success
@@ -4996,14 +4996,14 @@ ul.uk-nav-sub {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #6500ff;
+  background-color: #651fff;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #6500ff;
+  background-color: #651fff;
 }
 .uk-progress::-ms-fill {
-  background-color: #6500ff;
+  background-color: #651fff;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -6225,7 +6225,7 @@ ul.uk-nav-sub {
   color: rgba(153, 153, 153, 0.54) !important;
 }
 .uk-text-primary {
-  color: #6500ff !important;
+  color: #651fff !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -6251,11 +6251,11 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #6500ff !important;
+  color: #651fff !important;
 }
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #6500ff;
+    background-color: #651fff;
   }
 }
 /* Alignment modifiers
@@ -6619,7 +6619,7 @@ td.uk-text-break {
   background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: #6500ff;
+  background-color: #651fff;
 }
 .uk-background-secondary {
   background-color: #222;
@@ -7117,7 +7117,7 @@ td.uk-text-break {
   display: block;
   margin-right: 10px;
   float: left;
-  font-size: 4.5em;
+  font-size: 54px;
   line-height: 1;
 }
 /* Logo
